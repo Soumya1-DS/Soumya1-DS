@@ -4,7 +4,7 @@ int main()
 {
     void insertion_sort(int [], int);
     int a[10],i,N;
-    N=10;
+    N=5;
     printf("\nenter the %d elements to sort:\n",N);
     for(i=0;i<N;i++)
     scanf("%d",&a[i]);
@@ -17,10 +17,10 @@ int main()
 
 void insertion_sort(int a[], int N)
 {
-    int i=0,j=0,temp;
-    for(i=0;i<N;i++)
+    int i,j,temp;
+    for(i=1;i<N;i++)
     {
-		printf("\nAfter pass- %d",i+1);
+		printf("\nAfter pass- %d",i);
         temp=a[i];
 		printf("\nTemp=%d",temp);
         for(j=i-1;j>=0;j--)
