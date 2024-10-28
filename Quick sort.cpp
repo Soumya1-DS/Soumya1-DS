@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<conio.h>
 void quickSort(int [10],int,int);
 int list[20],size,i,k;
 int main()
