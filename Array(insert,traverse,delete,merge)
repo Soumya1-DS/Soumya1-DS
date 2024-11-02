@@ -57,7 +57,7 @@ int main()
                 display(a, n);
                 break;
 
-            case 4:
+            case 3:
                 printf("\nEnter the position of the element to delete: ");
                 scanf("%d", &pos2);
                 deletion(a, pos2, n);
@@ -66,13 +66,13 @@ int main()
                 display(a, n);
                 break;
 
-            case 5:
+            case 4:
                 deleteEnd(a, &n);
                 printf("\nAfter deleting the last element, array elements are: ");
                 display(a, n);
                 break;
 
-            case 6:
+            case 5:
                 printf("\nEnter the number of elements for the second array: ");
                 scanf("%d", &y);
                 printf("\nEnter second array elements: ");
@@ -83,7 +83,7 @@ int main()
                 display(d, z);
                 break;
 
-            case 7:
+            case 6:
                 printf("\nExiting program.\n");
                 return 0;
 
