@@ -65,7 +65,6 @@ do
  case 10: start = delete_after(start);
  break;
  case 11: start = delete_list(start);
- break;
           printf("\n LINKED LIST DELETED");
  break;
  case 12: start = sort_list(start);
