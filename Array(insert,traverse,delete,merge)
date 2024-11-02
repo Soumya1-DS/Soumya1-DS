@@ -52,7 +52,7 @@ int main()
                 printf("\nEnter the position to insert at: ");
                 scanf("%d", &pos);
                 insertion(a, pos, num, m);
-                n = m; // Update the size after insertion
+                n = m; 
                 printf("\nAfter insertion, array elements are: ");
                 display(a, n);
                 break;
@@ -61,7 +61,7 @@ int main()
                 printf("\nEnter the position of the element to delete: ");
                 scanf("%d", &pos2);
                 deletion(a, pos2, n);
-                n = n - 1; // Update the size after deletion
+                n = n - 1;
                 printf("\nAfter deletion, array elements are: ");
                 display(a, n);
                 break;
@@ -146,7 +146,7 @@ void deleteEnd(int a[], int *x)
 	{
         printf("Array is already empty.\n");
     } else {
-        (*x)--;  // Reduce the size of the array by one
+        (*x)--; 
         printf("Deleted last element.\n");
     }
 }
