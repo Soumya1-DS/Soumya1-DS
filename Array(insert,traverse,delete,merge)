@@ -129,7 +129,8 @@ void insertion(int a[], int pos, int num, int x)
 
 void deletion(int a[], int pos2, int x) 
 {
-    if (pos2 < 1 || pos2 > x) {
+    if (pos2 < 1 || pos2 > x) 
+{
         printf("Invalid position!\n");
         return;
     }
